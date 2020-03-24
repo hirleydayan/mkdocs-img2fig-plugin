@@ -25,7 +25,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'mkdocs.plugins': [
-            'img2fig = src:Image2FigurePlugin',
+            'img2fig = src.plugin:Image2FigurePlugin',
         ]
     }
 )
